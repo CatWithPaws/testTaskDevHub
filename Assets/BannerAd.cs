@@ -11,7 +11,7 @@ public class BannerAd : MonoBehaviour
     public void Start()
     {
         MobileAds.Initialize(initStatus => { });
-        
+        RequestBanner();
     }
 
 
